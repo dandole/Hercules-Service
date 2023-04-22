@@ -22,7 +22,9 @@ and after all that move
 hercules.service -->  /etc/systemd/system/
 
 systemctl enable hercules.service
+
 systemctl start hercules.service
+
 --- connected to your running hercules (or use hercules web interface)
 screen -r   
 
