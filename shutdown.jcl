@@ -1,5 +1,5 @@
-//SHUTDOWN JOB (TK4-),                                                  
-//             'Shutdown TK4-',                                         
+//SHUTDOWN JOB (MVSCE),                                                  
+//             'Shutdown MVS/CE',                                         
 //             CLASS=A,                                                 
 //             MSGCLASS=A,                                              
 //             MSGLEVEL=(0,0),
@@ -8,7 +8,7 @@
 //*                                                                  *  
 //*  Name: SYS2.JCLLIB(SHUTDOWN)                                     *  
 //*                                                                  *  
-//*  Desc: Initiate automated shutdown of the TK4- system            *  
+//*  Desc: Initiate automated shutdown of the MVS/CE system          *  
 //*                                                                  *  
 //********************************************************************  
 //SHUTDOWN EXEC SHUTDOWN,TYPE='SHUTFAST'                                                
