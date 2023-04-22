@@ -1,0 +1,15 @@
+[Unit]
+Description=hercules mvs
+After=multi-user.target
+
+[Service]
+Type=forking
+ExecStart=/bin/bash /home/dan/.startup/controlmvs.sh start
+ExecStop=/bin/bash /home/dan/.startup/controlmvs.sh stop
+TimeoutStopSec=300
+User=dan
+
+[Install]
+WantedBy=multi-user.target
+
+
