@@ -26,11 +26,13 @@ systemctl enable hercules.service
 systemctl start hercules.service
 
 --- connected to your running hercules (or use hercules web interface)
+
 screen -r   
 
 --- once your system is fully up, try the clean shutdown
 
 systemctl stop hercules.service
+
 ---  watch you system for clean shutdown and if using screen -r it should close once hercules exits 
 
 ---  hercules system will start with host start, and system will clean shutdown with a host shutdown or reboot
