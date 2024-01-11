@@ -4,8 +4,8 @@ After=multi-user.target
 
 [Service]
 Type=forking
-ExecStart=/bin/bash /home/dan/.startup/controlmvs.sh start
-ExecStop=/bin/bash /home/dan/.startup/controlmvs.sh stop
+ExecStart=/home/dan/.startup/controlmvs.sh start
+ExecStop=/home/dan/.startup/controlmvs.sh stop
 TimeoutStopSec=300
 User=dan
 
